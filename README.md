@@ -13,8 +13,7 @@ A simple parser for text/gemini content. Read the documentation at the [Gemini P
 some
   verbatim
      text
-```
-"""
+```"""
 var p: GeminiParser
 open(p, newStringStream(gemtext))
 while true:
